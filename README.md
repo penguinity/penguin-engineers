@@ -34,7 +34,7 @@ Everything I build is guided by the same philosophy: systems should reduce compl
 
 The projects in this portfolio represent a progression from operational automation to full-scale data engineering and AI-assisted analytics. While each project was built to solve a different problem, they share the same philosophy: eliminate repetitive work, preserve data integrity, and build systems that empower people rather than replace them.
 
-Across healthcare, community operations, and analytics, these projects demonstrate end-to-end ownership of technical solutions — from architectural design and infrastructure development to automation, validation, deployment, and continuous refinement.
+Across healthcare, community operations, customer experience, and analytics, these projects demonstrate end-to-end ownership of technical solutions — from architectural design and infrastructure development to automation, validation, deployment, and continuous refinement.
 
 ### Featured Projects
 

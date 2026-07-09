@@ -1,8 +1,18 @@
 ## Professional Summary
 
+> **Portfolio Navigation:**  
+> * **Portfolio Summary (Here):** [Overview of Portfolio](./README.md)
+> * **AI Moderation & Privacy Infrastructure:** [AI Moderation & Privacy Infrastructure](./rpa-community-governance.md)  
+> * **AI-Driven CSR Platform:** [AI-Driven CSR Platform](./training-playbook.md)  
+> * **Autonomous Community Operations RPA:** [Autonomous Community Operations RPA](./ai-ops-case-studies.md)
+> * **CMS Data Engineering Pipeline:** [CMS Data Engineering Pipeline](./ai-ops-case-studies.md)
+> * **Insight: CMS Part B Compliance Analytics Engine:** [Insight: Compliance Analytics Engine](./ai-ops-case-studies.md)
+> * **Portfolio Summary & Operational Scope** [Community Scope & Closure](./scale-and-scope.md)
+
 ---
 
-> 💡 My path isn't traditional or linear, but it *has* been defined by building resilient, operational systems in environments where others see only chaos and complexity.
+> 💡 My path isn't traditional or linear, but it *has* been defined by building resilient operational and technical systems in environments where others see only chaos and complexity. I don't fear complexity — I learn from it.
+
 
 ---
 
@@ -31,8 +41,8 @@ Across healthcare, community operations, and analytics, these projects demonstra
 * **AI Moderation & Privacy Infrastructure**:
 Designed an intelligent assistant for a large healthcare community capable of responding to moderator inquiries, enforcing community standards, and classifying sensitive content using structured decision logic. The system emphasizes privacy-by-design through carefully engineered data structures, strict guardrails, and the complete exclusion of personally identifiable information (PII).
 
-* **AI Community Operations Platform**:
-Engineered a production-ready C# extension that transforms legacy software into an AI-assisted operational platform. The project combines software engineering, prompt engineering, dynamic personality management, UX design, and LLM orchestration to create configurable virtual community advocates capable of safe, context-aware interactions.
+* **AI-Driven CSR Platform**:
+Engineered a production-ready C# extension that transforms legacy software into an AI-assisted operational platform. The project combines software engineering, prompt engineering, dynamic personality management, UX design, and LLM orchestration to create configurable virtual community advocates capable of safe, context-aware customer service interactions.
 
 * **Autonomous Community Operations RPA**:
 Built a browser-based robotic process automation (RPA) pipeline that autonomously triages a community exceeding one million members. Operating through Selenium after public API access became unavailable, the system performs moderation, prioritization, and escalation while deferring only genuinely ambiguous cases to human operators through carefully defined programmatic guardrails. *This project has been continuously maintained since early 2025. For privacy reasons, the repo is not publicly available, but video demonstrations are available.*

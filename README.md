@@ -22,7 +22,7 @@ Everything I build is guided by the same philosophy: systems should reduce compl
 
 ## Featured Engineering Projects
 
-The projects in this portfolio represent a progression from operational automation to full-scale data engineering and AI-assisted analytics. While each was built to solve a different problem, they share the same philosophy: eliminate repetitive work, preserve data integrity, and build systems that empower people rather than replace them.
+The projects in this portfolio represent a progression from operational automation to full-scale data engineering and AI-assisted analytics. While each project was built to solve a different problem, they share the same philosophy: eliminate repetitive work, preserve data integrity, and build systems that empower people rather than replace them.
 
 Across healthcare, community operations, and analytics, these projects demonstrate end-to-end ownership of technical solutions — from architectural design and infrastructure development to automation, validation, deployment, and continuous refinement.
 

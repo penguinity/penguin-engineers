@@ -91,3 +91,12 @@ Finally, sustaining continuous autonomous operation required balancing efficienc
 The platform transformed moderation from a continuously manual process into an exception-driven operational workflow.
 
 Routine moderation tasks are processed autonomously while operators concentrate on ambiguous or high-impact situations requiring human judgment. By combining browser automation, deterministic AI decision-making, and structured operational logging, the platform significantly reduced repetitive workload, improved processing consistency, and restored scalability despite the loss of native API infrastructure.
+
+## 👉 Live Demos
+
+The demonstrations below showcase the platform operating in a live environment. The first highlights autonomous batch processing and AI-assisted queue triage, while the second demonstrates full browser automation through Selenium, including real-time DOM navigation, moderation actions, and continuous autonomous operation.
+
+These demonstrations are intentionally sanitized to protect community privacy while accurately representing the platform's production behavior.
+
+→ Demo 1: [Click Here!](lq_demo1.mp4)
+→ Demo 2: [Click Here!](0611(1).mp4)

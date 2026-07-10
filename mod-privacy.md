@@ -10,7 +10,7 @@
 > * **Insight: CMS Part B Compliance Analytics Engine:** [Insight: Compliance Analytics Engine](./ai-ops-case-studies.md)
 > * **Portfolio Summary & Operational Scope** [Community Scope & Closure](./scale-and-scope.md)
 
-## Summary
+## 📃 Summary
 
 As a dedicated online cancer support community expanded, I faced an unsustainable volume of diagnosis-seeking inquiries, repetitive community outreach regarding the same topics, and limited availability. Legitimate discussions from cancer patients and survivors were increasingly displaced by requests asking the community to identify suspicious health issues — requests the community is neither qualified nor permitted to answer.
 
@@ -20,7 +20,7 @@ Today, the assistant provides support by responding to common inquiries, initiat
 
 ---
 
-## Problem Statement
+## ❗ Problem Statement
 
 The operational challenge was not simply the volume of content — it was the *imbalance* it created.
 
@@ -32,7 +32,7 @@ The result was a workflow dominated by repetitive manual review rather than mean
 
 ---
 
-## System Goals
+## 🔌 System Goals
 
 The system was designed with several core operational objectives:
 
@@ -50,13 +50,13 @@ The system was designed with several core operational objectives:
 <img width="684" height="973" alt="image" src="https://github.com/user-attachments/assets/94a1f5c9-ca3c-416d-9d31-8b5ca730df59" />
 
 
-# Privacy by Design
+# 💡 Privacy by Design
 
 Because the community discusses highly sensitive health-related topics, privacy considerations were incorporated into the system architecture from its inception rather than treated as an afterthought.
 
 The assistant is intentionally designed to learn from moderation outcomes — not from individual users.
 
-### Privacy Principles
+### → Privacy Principles
 
 * **No usernames are ever persisted.** User identities are intentionally excluded from all stored records.
 * **No profile scraping is performed.** The system never collects profile metadata, posting history, or account characteristics.
@@ -66,7 +66,7 @@ The assistant is intentionally designed to learn from moderation outcomes — no
 * **Local-first architecture.** Operational data is stored locally using SQLite rather than external cloud databases, minimizing exposure and simplifying security boundaries.
 * **Secure operational logging.** Logs capture system behavior and processing events without recording sensitive user information.
 
-### Knowledge Base Architecture
+### → Knowledge Base Architecture
 
 Rather than storing user-generated content verbatim, the system constructs an anonymized operational knowledge base centered on moderation decisions.
 
@@ -77,11 +77,11 @@ This architecture enables long-term analysis of volunteer patterns, emerging ter
 <img width="781" height="135" alt="image" src="https://github.com/user-attachments/assets/7700a630-6ead-4004-9ead-bc82b92d232c" /><br>
 
 
-# Decision Logic
+### → Decision Logic
 
 The moderation assistant follows deterministic decision rules supported by a structured knowledge base rather than probabilistic LLMs. Every automated action is constrained by explicit operational guardrails designed to prioritize community safety and consistency over automation coverage.
 
-### High-Confidence Classification
+### → High-Confidence Classification
 
 Removal decisions are based on confidence derived from historical moderation outcomes, recurring linguistic patterns, community policy, and previously validated moderation examples.
 
@@ -90,7 +90,7 @@ When sufficient evidence exists that a submission represents a diagnosis-seeking
 <img width="593" height="150" alt="image" src="https://github.com/user-attachments/assets/518b0458-c6e1-4c74-b8b3-1485e1a20c52" /><br>
 <img width="593" height="159" alt="image" src="https://github.com/user-attachments/assets/dfcf2f21-f0fe-4fd1-9463-fca63241fd7c" /><br>
 
-### Conservative Escalation
+### → Conservative Escalation
 
 Automation is intentionally conservative.
 
@@ -99,13 +99,13 @@ Whenever confidence falls below established thresholds or content cannot be conf
 <img width="836" height="259" alt="image" src="https://github.com/user-attachments/assets/b7bd1b8a-2b97-4b76-9eaf-f57272dff2ca" />
 
 
-### Medical Safety Guardrails
+### → Medical Safety Guardrails
 
 The assistant never attempts to diagnose medical conditions or provide clinical advice.
 
 Content indicating a potential medical emergency or urgent health concern is never processed as a routine moderation action. Instead, users are directed toward emergency services or qualified medical professionals using standardized safety messaging.
 
-### Continuous Refinement
+### → Continuous Refinement
 
 Every approved or removed moderation action contributes anonymized operational signals back into the knowledge base, allowing confidence thresholds, recurring terminology, and moderation heuristics to be continuously refined while preserving strict privacy protections.
 

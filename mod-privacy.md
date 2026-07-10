@@ -22,7 +22,7 @@ Today, the assistant provides support by responding to common inquiries, initiat
 
 ## Problem Statement
 
-The operational challenge was not simply the volume of content — it was the imbalance it created.
+The operational challenge was not simply the volume of content — it was the *imbalance* it created.
 
 The community queue became saturated with low-effort diagnosis requests asking peers to identify health conditions from photographs and personal accounts. These submissions generated substantial overhead, overwhelmed volunteer availability, and increasingly displaced meaningful discussions from individuals diagnosed with cancer or seeking support throughout treatment.
 
@@ -80,17 +80,15 @@ This architecture enables long-term analysis of volunteer patterns, emerging ter
 # Decision Logic
 
 The moderation assistant follows deterministic decision rules supported by a structured knowledge base rather than probabilistic LLMs. Every automated action is constrained by explicit operational guardrails designed to prioritize community safety and consistency over automation coverage.
-<br>
-
-<img width="593" height="150" alt="image" src="https://github.com/user-attachments/assets/518b0458-c6e1-4c74-b8b3-1485e1a20c52" /><br>
-<img width="593" height="159" alt="image" src="https://github.com/user-attachments/assets/dfcf2f21-f0fe-4fd1-9463-fca63241fd7c" /><br>
-
 
 ### High-Confidence Classification
 
 Removal decisions are based on confidence derived from historical moderation outcomes, recurring linguistic patterns, community policy, and previously validated moderation examples.
 
 When sufficient evidence exists that a submission represents a diagnosis-seeking request, the assistant can confidently recommend or perform removal according to established community standards.
+
+<img width="593" height="150" alt="image" src="https://github.com/user-attachments/assets/518b0458-c6e1-4c74-b8b3-1485e1a20c52" /><br>
+<img width="593" height="159" alt="image" src="https://github.com/user-attachments/assets/dfcf2f21-f0fe-4fd1-9463-fca63241fd7c" /><br>
 
 ### Conservative Escalation
 

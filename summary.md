@@ -2,6 +2,17 @@
 
 ---
 
+> **Portfolio Navigation:**  
+> * **Portfolio Summary (Here):** [Overview of Portfolio](./README.md)
+> * **Moderation & Privacy Infrastructure:** [Moderation & Privacy Infrastructure](mod-privacy.md)  
+> * **AI-Driven CSR Platform:** [AI-Driven CSR Platform](ai-csr.md)  
+> * **Autonomous Community Operations RPA:** [Autonomous Community Operations RPA](auto-ops-rpa.md)
+> * **CMS Data Engineering Pipeline:** [CMS Data Engineering Pipeline](cms-de-pipe.md)
+> * **Insight: CMS Part B Compliance Analytics Engine:** [Insight: Compliance Analytics Engine](insight.md)
+> * **Portfolio Summary & Engineering Philosophy** [Profile Scope & Closure](summary.md)
+
+---
+
 ## 📄 Summary
 
 This portfolio documents my progression from operational automation into full-scale software engineering, data engineering, analytics platform design, and AI-assisted operational systems.

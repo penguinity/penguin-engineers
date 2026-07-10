@@ -41,7 +41,9 @@ CMS public datasets frequently contain:
 * Metrics distributed across several worksheets
 * Geographic data that must be filtered and consolidated
 
-Manually locating and combining these values is time-consuming, difficult to reproduce, and vulnerable to transcription errors.
+📢 *Manually locating and combining these values is time-consuming, difficult to reproduce, and vulnerable to transcription errors.*
+
+---
 
 ## Engineering Solution
 
@@ -57,11 +59,16 @@ I developed a Python-based extraction pipeline that:
 * Prevents duplicate metric assignments across worksheets
 * Consolidates the results into one structured DataFrame
 * Calculates additional utilization and outcome measures
-* Exports the final dataset to a reusable Excel file
+* Exports the final dataset to a reusable Excel file<br>
 
-## Metrics Extracted
+<img width="730" height="310" alt="image" src="https://github.com/user-attachments/assets/1978f416-917e-4608-8278-38051e40159b" /><br>
+<img width="739" height="344" alt="image" src="https://github.com/user-attachments/assets/01741c3c-e826-4c49-8721-daf54b2e5f12" /><br>
 
-The pipeline consolidates:
+
+
+## 📈 Metrics Extracted
+
+→ **The pipeline consolidates**:
 
 * Original Medicare Part A enrollees
 * Total inpatient discharges
@@ -71,7 +78,7 @@ The pipeline consolidates:
 * Average Medicare payment per discharge
 * Inpatient deaths
 
-It also derives:
+→ **It also derives**:
 
 * **Emergency-Room Dependency Rate**
   Percentage of inpatient discharges that began with an emergency-room visit
@@ -97,7 +104,7 @@ The pipeline also uses defensive validation and type coercion so missing, malfor
 
 ## Output
 
-The final process generates:
+The final process generates, for example:
 
 `NC_vs_US_Healthcare_Final_Consolidated.xlsx`
 
@@ -108,13 +115,23 @@ The exported file contains one standardized record for each comparison region an
 * Statistical analysis
 * Healthcare utilization reporting
 * Medicare cost and outcome comparisons
-* Larger ETL and analytics pipelines
+* Larger ETL and analytics pipelines<br>
+
+<img width="1239" height="187" alt="image" src="https://github.com/user-attachments/assets/4b5abff8-6b29-42fc-b87c-5a01e8ee6b8a" /><br>
+
+```
+py python_cleaning_script.py --regions US NC GA SC
+```
+
+*Example .xlsx compiled output for US, GA, SC and NC. State filters are easily customizable and ready for Power BI, etc.*
+
+---
 
 ## Engineering Value
 
 This project demonstrates the ability to transform inconsistent, human-oriented spreadsheets into reliable machine-readable data.
 
-It highlights practical experience with:
+👉 It highlights practical experience with:
 
 * Semi-structured data ingestion
 * Dynamic schema and header detection
@@ -126,3 +143,6 @@ It highlights practical experience with:
 
 The same extraction architecture can be extended to additional states, reporting years, CMS workbooks, or automated ingestion into a relational data warehouse.
 
+<img width="1434" height="802" alt="image" src="https://github.com/user-attachments/assets/8ebfea1a-b8f6-45eb-a6de-b4b3ca37fbad" />
+
+*Example of a completed dashboard rendered directly from the project output: NC_vs_US_Healthcare_Final_Consolidated.xlsx*

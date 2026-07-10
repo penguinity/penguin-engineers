@@ -20,6 +20,13 @@ Today, the assistant provides support by responding to common inquiries, initiat
 
 ---
 
+## 📊 Technologies:
+
+* Python
+* SQLite
+
+---
+
 ## ❗ Problem Statement
 
 The operational challenge was not simply the volume of content — it was the *imbalance* it created.

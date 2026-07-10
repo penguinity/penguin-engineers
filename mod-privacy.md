@@ -50,7 +50,7 @@ The system was designed with several core operational objectives:
 <img width="684" height="973" alt="image" src="https://github.com/user-attachments/assets/94a1f5c9-ca3c-416d-9d31-8b5ca730df59" />
 
 
-# 💡 Privacy by Design
+# 🔒 Privacy by Design
 
 Because the community discusses highly sensitive health-related topics, privacy considerations were incorporated into the system architecture from its inception rather than treated as an afterthought.
 

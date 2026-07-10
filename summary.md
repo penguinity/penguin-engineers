@@ -135,7 +135,7 @@ Throughout this portfolio, several architectural principles consistently emerge:
 ## 💭 Engineering Philosophy
 
 >💡 Every project was designed around the same objective:
-> → **Build reusable platforms—not disposable scripts.**<br>
+> → **Build reusable platforms — not disposable scripts.**<br>
 > → Configuration is intentionally separated from implementation wherever possible, allowing analysts and operators to redefine geographic scope, analytical metrics, reporting outputs, comparison groups, and operational behavior without redesigning the underlying architecture.<br>
 > → Rather than tightly coupling solutions to a single dataset or workflow, every project prioritizes extensibility, maintainability, transparency, and long-term operational resilience.
 

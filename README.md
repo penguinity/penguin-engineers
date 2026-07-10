@@ -11,7 +11,7 @@
 
 ---
 
-> 💡 My path isn't traditional or linear, but it *has* been defined by building resilient operational and technical systems in environments where others see only chaos and complexity. I don't fear complexity — I learn from it.
+> 💡 My path isn't traditional or linear, but it *has* been defined by building resilient operational and technical systems in environments where others see only chaos and complexity.
 
 ---
 

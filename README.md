@@ -7,7 +7,7 @@
 > * **Insight: CMS Part B Compliance Analytics Engine:** [Insight: Compliance Analytics Engine](./ai-ops-case-studies.md)
 > * **Portfolio Summary & Operational Scope** [Community Scope & Closure](./scale-and-scope.md)
 
-## Professional Summary
+## 📄 Summary
 
 ---
 
@@ -15,27 +15,21 @@
 
 ---
 
-I'm a high-autonomy engineer driven by curiosity and the belief that technical architecture should always be grounded in business need and domain expertise.
+I’m a high-autonomy engineer driven by curiosity and the belief that technical architecture should always be grounded in business need and domain expertise.
 
-From managing compliance-heavy operational infrastructure for massive-scale communities to architecting automated pipelines for 10M+ row Centers for Medicare and Medicaid Services datasets, I've developed a rare combination of data engineering precision and regulatory understanding. My work bridges the gap between raw, fragmented data and actionable operational intelligence.
+I design systems that transform operational complexity into scalable solutions — from compliance-focused community infrastructure and autonomous RPA platforms to healthcare analytics engines processing 10M+ row Centers for Medicare & Medicaid Services datasets. My work emphasizes secure, reliable, and maintainable architecture from the outset, bridging the gap between raw data and actionable operational intelligence.
 
-I don't simply process data or wait for someone else to define how it should be used. I design the infrastructure that makes data accessible, secure, reliable, and performant from the very beginning.
-
-Whether I'm building RPA pipelines to manage communities of more than one million members or developing AI-augmented auditing platforms, I own the full technical lifecycle from schema design, ETL architecture, and programmatic guardrails to diagnostic validation, automation, and executive-ready reporting.
-
-I shaped my own path through grit and perseverance, building expertise across some of the most data-driven and operationally demanding industries in modern technology: healthcare, human resources, retail, and education. 
-
-Everything I build is guided by the same principles: systems should reduce complexity, amplify human capability, and leave organizations with infrastructure that is more scalable, more reliable, and easier to operate than what existed before.
+Having built expertise across healthcare, human resources, retail, and education, I approach every project with the same goal: reduce complexity, amplify human capability, and leave organizations with infrastructure that’s more scalable, more reliable, and easier to operate than before.
 
 ---
 
-## Featured Engineering Projects
+## 📊 Engineering Projects
 
-The projects in this portfolio represent a progression from operational automation to full-scale data engineering and AI-assisted analytics. While each project was built to solve a different problem, they share the same philosophy: eliminate repetitive work, preserve data integrity, and build systems that empower people rather than replace them.
+The projects in this portfolio represent a progression from operational automation to full-scale data engineering and AI-assisted analytics. 
 
 Across healthcare, community operations, customer experience, and analytics, these projects demonstrate end-to-end ownership of technical solutions — from architectural design and infrastructure development to automation, validation, deployment, and continuous refinement.
 
-### Featured Projects
+### ➡️ Featured Projects
 
 * **Moderation & Privacy Infrastructure**:
 Designed an intelligent assistant for a large healthcare community capable of responding to moderator inquiries, enforcing community standards, and classifying sensitive content using structured decision logic and learned decision logic. The system emphasizes privacy-by-design through carefully engineered data structures, strict guardrails, and the complete exclusion of personally identifiable information (PII). *This project has been maintained since late 2024. It will not be available on GitHub, but extensive documentation is available.*

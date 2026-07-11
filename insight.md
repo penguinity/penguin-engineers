@@ -366,7 +366,7 @@ Insight continues to evolve as additional analytical capabilities are introduced
 
 Insight was never intended to be another reporting dashboard.
 
-Its purpose is to reduce the engineering effort required to transform fragmented healthcare reimbursement data into trustworthy operational intelligence. Every architectural decision—from the normalization layer to the dimensional schema and modular ETL framework—was designed to maximize scalability, maintainability, and analyst efficiency.
+Its purpose is to reduce the engineering effort required to transform fragmented healthcare reimbursement data into trustworthy operational intelligence. Every architectural decision — from the normalization layer to the dimensional schema and modular ETL framework — was designed to maximize scalability, maintainability, and analyst efficiency.
 
 Rather than replacing human expertise, Insight amplifies it by allowing analysts to spend less time preparing data and more time investigating meaningful operational questions.
 
